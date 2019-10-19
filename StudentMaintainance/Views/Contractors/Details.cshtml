@@ -1,0 +1,42 @@
+﻿@model StudentMaintainance.Models.Contractor
+
+@{
+    ViewBag.Title = "Details";
+}
+
+<h2>Details</h2>
+
+<div>
+    <h4>Contractor</h4>
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayNameFor(model => model.ContractorName)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.ContractorName)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Contractor_EmailAddress)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Contractor_EmailAddress)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Contractor_Availability)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Contractor_Availability)
+        </dd>
+
+    </dl>
+</div>
+<p>
+    @Html.ActionLink("Edit", "Edit", new { id = Model.ContractorId }) |
+    @Html.ActionLink("Back to List", "Index")
+</p>

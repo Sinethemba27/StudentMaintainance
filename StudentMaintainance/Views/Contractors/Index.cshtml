@@ -1,0 +1,45 @@
+﻿@model IEnumerable<StudentMaintainance.Models.Contractor>
+
+@{
+    ViewBag.Title = "Index";
+}
+
+<h2>Index</h2>
+
+<p>
+    @Html.ActionLink("Create New", "Create")
+</p>
+<table class="table">
+    <tr>
+        <th>
+            @Html.DisplayNameFor(model => model.ContractorName)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Contractor_EmailAddress)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Contractor_Availability)
+        </th>
+        <th></th>
+    </tr>
+
+@foreach (var item in Model) {
+    <tr>
+        <td>
+            @Html.DisplayFor(modelItem => item.ContractorName)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.Contractor_EmailAddress)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.Contractor_Availability)
+        </td>
+        <td>
+            @Html.ActionLink("Edit", "Edit", new { id=item.ContractorId }) |
+            @Html.ActionLink("Details", "Details", new { id=item.ContractorId }) |
+            @Html.ActionLink("Delete", "Delete", new { id=item.ContractorId })
+        </td>
+    </tr>
+}
+
+</table>
