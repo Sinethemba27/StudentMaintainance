@@ -20,7 +20,7 @@ namespace StudentMaintainance.Controllers
             var assignContractors = db.AssignContractors.Include(a => a.Contractor).Include(a => a.Maintainance);
             return View(assignContractors.ToList());
         }
-
+       
         // GET: AssignContractors/Details/5
         public ActionResult Details(int? id)
         {
@@ -39,11 +39,15 @@ namespace StudentMaintainance.Controllers
         }
 
         // GET: AssignContractors/Create
-        public ActionResult Create()
+        public ActionResult Create(int id)
         {
+           
+
             ViewBag.ContractorId = new SelectList(db.Contractors, "ContractorId", "ContractorName");
             ViewBag.MaintainanceId = new SelectList(db.Maintainances, "MaintainanceId", "StudentNAme");
-            return View();
+            AssignContractor c = new AssignContractor();
+            c.MaintainanceId = id;
+            return View(c);
         }
 
         // POST: AssignContractors/Create
@@ -51,10 +55,24 @@ namespace StudentMaintainance.Controllers
         // more details see https://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public ActionResult Create([Bind(Include = "acontract,ContractorId,MaintainanceId,Status")] AssignContractor assignContractor)
+        public ActionResult Create([Bind(Include = "acontract,ContractorId,MaintainanceId,Status,Res,Image")] AssignContractor assignContractor)
         {
             if (ModelState.IsValid)
             {
+                var booking = db.Maintainances.Where(o => o.MaintainanceId == assignContractor.MaintainanceId).FirstOrDefault();
+                assignContractor.Res = booking.ResName;
+                assignContractor.Status = "Not Available";
+                assignContractor.Comment = booking.Comments;
+                assignContractor.Image = booking.Image;
+
+                var mm = db.Contractors.Where(o => o.ContractorId == assignContractor.ContractorId).FirstOrDefault();
+
+                booking.Contractor_EmailAddress = mm.Contractor_EmailAddress;
+                booking.Status = "In Progress";
+                booking.Contractor = mm.ContractorName;
+                db.Entry(booking).State = EntityState.Modified;
+                db.SaveChanges();
+
                 db.AssignContractors.Add(assignContractor);
                 db.SaveChanges();
                 return RedirectToAction("Index");

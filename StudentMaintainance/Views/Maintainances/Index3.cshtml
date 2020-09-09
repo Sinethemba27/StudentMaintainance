@@ -1,0 +1,78 @@
+﻿@model IEnumerable<StudentMaintainance.Models.Maintainance>
+
+@{
+    ViewBag.Title = "Index";
+}
+
+<h2>Index</h2>
+
+<table class="table">
+    <tr>
+        <th>
+            @Html.DisplayNameFor(model => model.StudentNAme)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.ReportDate)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.FixedDate)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Comments)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Contractor)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Status)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Contractor_EmailAddress)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Image)
+        </th>
+    
+        <th></th>
+    </tr>
+
+    @foreach (var item in Model)
+    {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.StudentNAme)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.ReportDate)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.FixedDate)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Comments)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Contractor)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Status)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Contractor_EmailAddress)
+            </td>
+            <td>
+                @if (item.Image != null)
+                {
+                    var base64 = Convert.ToBase64String(item.Image);
+                    var ImgSource = string.Format("data:image/gif;base64,{0}", base64);
+                    <img src="@ImgSource" width="100" height="100" />
+                }
+            </td>
+            <td>
+                <a href="@Url.Action("Done", "Maintainances", new { id = item.MaintainanceId })" onclick="return confirm('Are you sure you are done, click Ok to Confirm, Or Cancel');" rel="tooltip" title="Confirm" class="btn btn-success btn-simple btn-xs"><i class="fa fa-times">Done</i></a>
+                
+            </td>
+        </tr>
+    }
+
+</table>

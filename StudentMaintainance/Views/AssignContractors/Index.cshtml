@@ -2,6 +2,7 @@
 
 @{
     ViewBag.Title = "Index";
+    Layout = "~/Views/Shared/_Backend.cshtml";
 }
 
 <h2>Index</h2>
@@ -20,6 +21,15 @@
         <th>
             @Html.DisplayNameFor(model => model.Status)
         </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Res)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Comment)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Image)
+        </th>
         <th></th>
     </tr>
 
@@ -33,6 +43,21 @@
         </td>
         <td>
             @Html.DisplayFor(modelItem => item.Status)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.Res)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.Comment)
+        </td>
+
+        <td>
+            @if (item.Image != null)
+            {
+                var base64 = Convert.ToBase64String(item.Image);
+                var ImgSource = string.Format("data:image/gif;base64,{0}", base64);
+                <img src="@ImgSource" width="100" height="100" />
+            }
         </td>
         <td>
             @Html.ActionLink("Edit", "Edit", new { id=item.acontract }) |

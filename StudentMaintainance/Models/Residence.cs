@@ -1,4 +1,4 @@
-﻿using System;
+﻿    using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.ComponentModel.DataAnnotations;
@@ -10,19 +10,11 @@ namespace StudentMaintainance.Models
     public class Residence
     {
         [Key]
-        public int Resid { get; set; }
+        public int ResId { get; set; }
+        public string ResName { get; set; }
+
         public string Latitude { get; set; }
         public string Longitude { get; set; }
-
-        public Res Reses { get; set; }
-
-        public enum Res
-        {
-            StudentVillage,
-            Sterling,
-            WWelsingham,
-            UrbanView
-        }
-
+        public string FullAddress { get; set; }
     }
 }

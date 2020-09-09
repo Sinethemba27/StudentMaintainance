@@ -1,31 +1,139 @@
-﻿@{
-    ViewBag.Title = "Home Page";
+﻿
+@{
+    Layout = "~/Views/Shared/_FrontEnd.cshtml";
 }
 
-<div class="jumbotron">
-    <h1>ASP.NET</h1>
-    <p class="lead">ASP.NET is a free web framework for building great Web sites and Web applications using HTML, CSS and JavaScript.</p>
-    <p><a href="https://asp.net" class="btn btn-primary btn-lg">Learn more &raquo;</a></p>
-</div>
-
-<div class="row">
-    <div class="col-md-4">
-        <h2>Getting started</h2>
-        <p>
-            ASP.NET MVC gives you a powerful, patterns-based way to build dynamic websites that
-            enables a clean separation of concerns and gives you full control over markup
-            for enjoyable, agile development.
-        </p>
-        <p><a class="btn btn-default" href="https://go.microsoft.com/fwlink/?LinkId=301865">Learn more &raquo;</a></p>
+<!-- Services section  -->
+<section class="services-section">
+    <div class="services-warp">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-4 col-md-6">
+                    <div class="service-item">
+                        <div class="si-head">
+                            <div class="si-icon">
+                                <img src="~/FrontEnd/img/icons/cogwheel.png" alt="">
+                            </div>
+                            <h5>Plumbing Issues</h5>
+                        </div>
+                        <p>Plumbing lines and water heater systems can begin to corrode and decay. Discovering problems early can allow you to take the best corrective actions to repair and replace these features</p>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6">
+                    <div class="service-item">
+                        <div class="si-head">
+                            <div class="si-icon">
+                                <img src="~/FrontEnd/img/icons/helmet.png" alt="">
+                            </div>
+                            <h5>Health Hazards</h5>
+                        </div>
+                        <p>The health problems associated with poor housing and home conditions, flooding, poor sanitation and water pollution.. Introduction. Housing is one of the traditional areas of concern for public health, though it has been relatively neglected over recent decades.</p>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6">
+                    <div class="service-item">
+                        <div class="si-head">
+                            <div class="si-icon">
+                                <img src="~/FrontEnd/img/icons/wind-engine.png" alt="">
+                            </div>
+                            <h5>Locks On Doors</h5>
+                        </div>
+                        <p>Sodales in est quis, blandit sollicitudin est. Nam ornare ipsum ac accumsan auctor. Donec con-sequat arcu et commodo interdum. </p>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6">
+                    <div class="service-item">
+                        <div class="si-head">
+                            <div class="si-icon">
+                                <img src="~/FrontEnd/img/icons/pollution.png" alt="">
+                            </div>
+                            <h5>Smoke and Carbon Monoxide Detectors</h5>
+                        </div>
+                        <p>Smart smoke detectors use the latest technology to detect the presence of smoke using photoelectric smoke-sensing technology. Their ultra sensitivity prevents false alarms. In addition to sensing smoke, they also have heat sensors that detect rapid rises in heat that come from a fire, even when there is no smoke. </p>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6">
+                    <div class="service-item">
+                        <div class="si-head">
+                            <div class="si-icon">
+                                <img src="~/FrontEnd/img/icons/pumpjack.png" alt="">
+                            </div>
+                            <h5>Efficiency in Maintenace</h5>
+                        </div>
+                        <p>Students are provided with the option to attach an image to their repair request. This creates an efficient tenant communication process where property managers are able to deal with the specific issue at hand – ensuring faster fixes. In-app guidance. An online repair reporting system benefits. </p>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6">
+                    <div class="service-item">
+                        <div class="si-head">
+                            <div class="si-icon">
+                                <img src="~/FrontEnd/img/icons/light-bulb.png" alt="">
+                            </div>
+                            <h5>Ventilation fan above Stove</h5>
+                        </div>
+                        <p>Proper kitchen ventilation isn’t just important for smells; it’s also a safety concern if you’re cooking on a gas stove, which releases carbon monoxide. Cracking a window or using a window fan can help, but you may also want to consider buying a carbon monoxide meter, especially if you don’t have a window.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
     </div>
-    <div class="col-md-4">
-        <h2>Get more libraries</h2>
-        <p>NuGet is a free Visual Studio extension that makes it easy to add, remove, and update libraries and tools in Visual Studio projects.</p>
-        <p><a class="btn btn-default" href="https://go.microsoft.com/fwlink/?LinkId=301866">Learn more &raquo;</a></p>
+</section>
+<!-- Services section end  -->
+<!-- Features section   -->
+<section class="features-section spad set-bg" data-setbg="/FrontEnd/img/features-bg.jpg">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-4 col-md-6">
+                <div class="feature-box">
+                    <img src="~/FrontEnd/img/features/1.jpg" alt="">
+                    <div class="fb-text">
+                        <h5>Maintainance</h5>
+                        <a href="" class="fb-more-btn">Read More</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4 col-md-6">
+                <div class="feature-box">
+                    <img src="~/FrontEnd/img/features/2.jpg" alt="">
+                    <div class="fb-text">
+                        <h5>Security and Safety</h5>
+                        <a href="" class="fb-more-btn">Read More</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4 col-md-12">
+                <div class="feature-box">
+                    <img src="~/FrontEnd/img/features/3.jpg" alt="">
+                    <div class="fb-text">
+                        <h5>Bus Routing</h5>
+                        <a href="" class="fb-more-btn">Read More</a>
+                    </div>
+                </div>
+            </div>
+        </div>
     </div>
-    <div class="col-md-4">
-        <h2>Web Hosting</h2>
-        <p>You can easily find a web hosting company that offers the right mix of features and price for your applications.</p>
-        <p><a class="btn btn-default" href="https://go.microsoft.com/fwlink/?LinkId=301867">Learn more &raquo;</a></p>
+</section>
+<!-- Features section end  -->
+<div class="footer-buttom">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-4 order-2 order-lg-1 p-0">
+                <div class="copyright">
+                    <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
+                    Copyright &copy;
+                    <script>document.write(new Date().getFullYear());</script> All rights reserved | This template is made with <i class="fa fa-heart-o" aria-hidden="true"></i> by <a href="https://colorlib.com" target="_blank">HTTP200</a>
+                    <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
+                </div>
+            </div>
+            <div class="col-lg-7 order-1 order-lg-2 p-0">
+                <ul class="footer-menu">
+                    <li class="active"><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About us</a></li>
+                    <li><a href="solutions.html">Solutions</a></li>
+                    <li><a href="blog.html">Blog</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </div>
+        </div>
     </div>
 </div>

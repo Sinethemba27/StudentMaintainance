@@ -46,7 +46,7 @@ namespace StudentMaintainance.Controllers
         // more details see https://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public ActionResult Create([Bind(Include = "Resid,Latitude,Longitude,Reses")] Residence residence)
+        public ActionResult Create([Bind(Include = "ResId,ResName,Latitude,Longitude,FullAddress")] Residence residence)
         {
             if (ModelState.IsValid)
             {
@@ -78,7 +78,7 @@ namespace StudentMaintainance.Controllers
         // more details see https://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public ActionResult Edit([Bind(Include = "Resid,Latitude,Longitude,Reses")] Residence residence)
+        public ActionResult Edit([Bind(Include = "ResId,ResName,Latitude,Longitude,FullAddress")] Residence residence)
         {
             if (ModelState.IsValid)
             {

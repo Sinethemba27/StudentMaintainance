@@ -1,0 +1,125 @@
+﻿@{ 
+
+}
+<html>
+<head>
+    <meta name="viewport" content="initial-scale=1.0, width=device-width" />
+    <script src="https://js.api.here.com/v3/3.1/mapsjs-core.js"
+            type="text/javascript" charset="utf-8"></script>
+    <script src="https://js.api.here.com/v3/3.1/mapsjs-service.js"
+            type="text/javascript" charset="utf-8"></script>
+    <script type="text/javascript" src="https://stuk.github.io/jszip/dist/jszip.js"></script>
+    <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+    <script src="https://js.api.here.com/v3/3.1/mapsjs-mapevents.js"
+            type="text/javascript" charset="utf-8"></script>
+</head>
+<body style="margin:0">
+
+
+
+    <h2>mY mAP</h2>
+    <div style="width: 100vw; height: 100vh" id="mapContainer"></div>
+
+    <script src="https://js.api.here.com/v3/3.1/mapsjs-core.js"
+            type="text/javascript" charset="utf-8"></script>
+    <script src="https://js.api.here.com/v3/3.1/mapsjs-service.js"
+            type="text/javascript" charset="utf-8"></script>
+    <script src="https://js.api.here.com/v3/3.1/mapsjs-mapevents.js"
+            type="text/javascript" charset="utf-8"></script>
+    <link rel="stylesheet" type="text/css"
+          href="https://js.api.here.com/v3/3.1/mapsjs-ui.css" />
+    <script>
+
+        var platform = new H.service.Platform({
+            'apikey': '6mNAnLG-aK-Vn0A6ZzC6i1IdhoYDCcmz3JVdXy2PUS8'
+        });
+
+        var maptypes = platform.createDefaultLayers();
+
+        // Instantiate (and display) a map object:
+        var map = new H.Map(
+            document.getElementById('mapContainer'),
+            maptypes.vector.normal.map,
+            {
+                zoom: 10,
+                center: { lng: 31.0276, lat: -29.8579}
+            });
+        const mapEvent = new H.mapevents.MapEvents(map);
+        const mapBehaviour = new H.mapevents.Behavior(mapEvent);
+        const lineString = new H.geo.LineString();
+        lineString.pushPoint({ lat: -29.857777, lng: 30.994534 });
+        lineString.pushPoint({ lat: -29.8524, lng: 31.0107 });
+        lineString.pushPoint({ lat: -29.8370976, lng: 31.0205532, });
+        lineString.pushPoint({ lat: -29.850847, lng: 31.0410128 });
+
+        const polygon = new H.map.Polygon(lineString);
+        map.addObject(polygon);
+        const geometry = polygon.getGeometry();
+        const wkt = geometry.toString();
+        console.log(wkt);
+        const zip = new JSZip();
+        zip.file("data.wkt", "NAME\tWKT\n" + "testfence" + "\t" + wkt);
+        zip.generateAsync({ type: "blob" }).then(content => {
+            var formData = new FormData();
+            formData.append("zipfile", content);
+            axios.post("https://gfe.api.here.com/2/layers/upload.json", formData, {
+                headers: {
+                    "content-type": "multipart/form-data"
+                },
+                params: {
+                    "app_id": "NMvGBHQ7FbnV4cubfcry",
+                    "app_code": "3igi0mZgKi3w3Ve80PWcZw",
+                    "layer_id": "5678"
+                }
+            }).then(result => {
+                console.log(result);
+            }, Error => {
+                console.error(Error);
+            });
+        }, Error => {
+            console.error(Error);
+        });
+
+        var marker = new H.map.Marker({ lat: @ViewBag.lat, lng: @ViewBag.log, });
+        map.addObject(marker);
+        map.addEventListener("tap", ev => {
+            var target = ev.target;
+            map.removeObject(marker);
+            marker = new H.map.Marker(map.screenToGeo(ev.currentPointer.viewportX, ev.currentPointer.viewportY));
+            map.addObject(marker);
+        });
+
+
+          var marker = new H.map.Marker({ lat: @ViewBag.lat2, lng: @ViewBag.log2, });
+        map.addObject(marker);
+        map.addEventListener("tap", ev => {
+            var target = ev.target;
+            map.removeObject(marker);
+            marker = new H.map.Marker(map.screenToGeo(ev.currentPointer.viewportX, ev.currentPointer.viewportY));
+            map.addObject(marker);
+        });
+
+
+          var marker = new H.map.Marker({ lat: @ViewBag.lat3, lng: @ViewBag.log3, });
+        map.addObject(marker);
+        map.addEventListener("tap", ev => {
+            var target = ev.target;
+            map.removeObject(marker);
+            marker = new H.map.Marker(map.screenToGeo(ev.currentPointer.viewportX, ev.currentPointer.viewportY));
+            map.addObject(marker);
+        });
+
+
+          var marker = new H.map.Marker({ lat: @ViewBag.lat4, lng: @ViewBag.log4, });
+        map.addObject(marker);
+        map.addEventListener("tap", ev => {
+            var target = ev.target;
+            map.removeObject(marker);
+            marker = new H.map.Marker(map.screenToGeo(ev.currentPointer.viewportX, ev.currentPointer.viewportY));
+            map.addObject(marker);
+        });
+
+
+    </script>
+</body>
+</html>

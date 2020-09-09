@@ -12,22 +12,24 @@ namespace StudentMaintainance.Models
     {
         [Key]
         public int acontract { get; set; }
+
         [DisplayName("Contractor")]
         [ForeignKey("ContractorId")]
         public Contractor Contractor { get; set; }
         public int ContractorId { get; set; }
+
         [DisplayName("Maintainance")]
         [ForeignKey("MaintainanceId")]
         public Maintainance Maintainance { get; set; }
         public int MaintainanceId { get; set; }
-        public acontractStatus Status { get; set; }
 
-        public enum acontractStatus
-        {
-            Awaiting_Approval,
-            Accepted,
-            Completed
-           
-        }
+        public string Status { get; set; }
+        public string Comment { get; set; }
+
+
+        public string Res { get; set; }
+
+        public byte[] Image { get; set; }
+
     }
 }

@@ -11,6 +11,14 @@
     <hr />
     <dl class="dl-horizontal">
         <dt>
+            @Html.DisplayNameFor(model => model.ResName)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.ResName)
+        </dd>
+
+        <dt>
             @Html.DisplayNameFor(model => model.Latitude)
         </dt>
 
@@ -27,16 +35,16 @@
         </dd>
 
         <dt>
-            @Html.DisplayNameFor(model => model.Reses)
+            @Html.DisplayNameFor(model => model.FullAddress)
         </dt>
 
         <dd>
-            @Html.DisplayFor(model => model.Reses)
+            @Html.DisplayFor(model => model.FullAddress)
         </dd>
 
     </dl>
 </div>
 <p>
-    @Html.ActionLink("Edit", "Edit", new { id = Model.Resid }) |
+    @Html.ActionLink("Edit", "Edit", new { id = Model.ResId }) |
     @Html.ActionLink("Back to List", "Index")
 </p>

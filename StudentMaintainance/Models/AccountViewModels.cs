@@ -73,9 +73,12 @@ namespace StudentMaintainance.Models
         [DisplayName("Room Number")]
         public int RoomNo { get; set; }
         [DisplayName("Residence")]
-        [ForeignKey("Resid")]
-        public Residence Residence { get; set; }
-        public int Resid { get; set; }
+        public string Resid { get; set; }
+       
+        [DisplayName("Availability")]
+        public string Contractor_Availability { get; set; }
+        public string Latitude { get; set; }
+        public string Longitude { get; set; }
         [Required]
         [EmailAddress]
         [Display(Name = "Email")]

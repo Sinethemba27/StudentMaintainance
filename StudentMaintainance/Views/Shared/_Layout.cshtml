@@ -24,6 +24,34 @@
                     <li>@Html.ActionLink("Home", "Index", "Home")</li>
                     <li>@Html.ActionLink("About", "About", "Home")</li>
                     <li>@Html.ActionLink("Contact", "Contact", "Home")</li>
+
+                    @if (User.IsInRole("Admin"))
+                    {
+                        <li>@Html.ActionLink("Add Res", "Index", "Residences")</li>
+                        <li>@Html.ActionLink("Add Contractor", "Register1", "Account")</li>
+                        <li>@Html.ActionLink("Maintainance", "Index", "Maintainances")</li>
+                        <li>@Html.ActionLink("Assign Contractors", "Index", "AssignContractors")</li>
+                        <li>@Html.ActionLink("Residences", "Residences", "Home")</li>
+                        <li>@Html.ActionLink("Done Maintainance", "Index", "DoneMaintainances")</li>
+
+                    }
+                    else if (User.IsInRole("Student"))
+                    {
+                        <li>@Html.ActionLink("My Details", "Index", "Students")</li>
+                        <li>@Html.ActionLink("Maintainance", "Index2", "Maintainances")</li>
+                        <li>@Html.ActionLink("Contact", "Contact", "Home")</li>
+                        <li>@Html.ActionLink("Done Maintainance", "Index", "DoneMaintainances")</li>
+                    }
+                    else if (User.IsInRole("Contractor"))
+                    {
+                        <li>@Html.ActionLink("Maintainance", "Index3", "Maintainances")</li>
+                        <li>@Html.ActionLink("Done Maintainance", "Index", "DoneMaintainances")</li>
+                        <li>@Html.ActionLink("Residences", "Residences", "Home")</li>
+                        <li>@Html.ActionLink("Routing", "About", "Home")</li>
+
+
+                    }
+
                 </ul>
                 @Html.Partial("_LoginPartial")
             </div>

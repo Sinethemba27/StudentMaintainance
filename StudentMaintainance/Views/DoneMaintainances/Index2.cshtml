@@ -1,0 +1,68 @@
+﻿@model IEnumerable<StudentMaintainance.Models.DoneMaintainance>
+
+@{
+    ViewBag.Title = "Index";
+    Layout = "~/Views/Shared/_FrontEnd.cshtml";
+
+}
+
+<h2>Index</h2>
+
+<table class="table">
+    <tr>
+        <th>
+            @Html.DisplayNameFor(model => model.StudentNAme)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.ReportDate)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.FixedDate)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Comments)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Contractor)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Image)
+        </th>
+        <th></th>
+    </tr>
+
+    @foreach (var item in Model)
+    {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.StudentNAme)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.ReportDate)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.FixedDate)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Comments)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Contractor)
+            </td>
+            <td>
+                @if (item.Image != null)
+                {
+                    var base64 = Convert.ToBase64String(item.Image);
+                    var ImgSource = string.Format("data:image/gif;base64,{0}", base64);
+                    <img src="@ImgSource" width="100" height="100" />
+                }
+            </td>
+            <td>
+                @Html.ActionLink("Edit", "Edit", new { id = item.MaintainanceId }) |
+                @Html.ActionLink("Details", "Details", new { id = item.MaintainanceId }) |
+                @Html.ActionLink("Delete", "Delete", new { id = item.MaintainanceId })
+            </td>
+        </tr>
+    }
+
+</table>

@@ -7,6 +7,8 @@ using System.Net;
 using System.Web;
 using System.Web.Mvc;
 using StudentMaintainance.Models;
+using System.IO;
+using Microsoft.AspNet.Identity;
 
 namespace StudentMaintainance.Controllers
 {
@@ -19,7 +21,14 @@ namespace StudentMaintainance.Controllers
         {
             return View(db.Maintainances.ToList());
         }
-
+        public ActionResult Index2()
+        {
+            return View(db.Maintainances.ToList().Where(p=>p.StudentEmail==User.Identity.GetUserName()));
+        }
+        public ActionResult Index3()
+        {
+            return View(db.Maintainances.ToList().Where(p => p.Contractor_EmailAddress == User.Identity.GetUserName()));
+        }
         // GET: Maintainances/Details/5
         public ActionResult Details(int? id)
         {
@@ -34,7 +43,31 @@ namespace StudentMaintainance.Controllers
             }
             return View(maintainance);
         }
+        public ActionResult CheckInn(int? id)
+        {
+            return RedirectToAction("Create", "AssignContractors", new { id = id });            
+        }
 
+        public ActionResult Done(int? id)
+        {
+            Maintainance maintainance = db.Maintainances.Find(id);
+            DoneMaintainance dm = new DoneMaintainance();
+            dm.MaintainanceId = maintainance.MaintainanceId;
+            dm.Comments = maintainance.Comments;
+            dm.Contractor = maintainance.Contractor;
+            dm.Contractor_EmailAddress = maintainance.Contractor_EmailAddress;
+            dm.FixedDate = System.DateTime.Now;
+            dm.Image = maintainance.Image;
+            dm.ReportDate = maintainance.ReportDate;
+            dm.ResName = maintainance.ResName;
+            dm.Status = "Completed";
+            dm.StudentEmail = maintainance.StudentEmail;
+            dm.StudentNAme = maintainance.StudentNAme;
+            db.DoneMaintainances.Add(dm);
+            db.Maintainances.Remove(maintainance);
+            db.SaveChanges();
+            return RedirectToAction("Index3");
+        }
         // GET: Maintainances/Create
         public ActionResult Create()
         {
@@ -46,18 +79,39 @@ namespace StudentMaintainance.Controllers
         // more details see https://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public ActionResult Create([Bind(Include = "MaintainanceId,StudentNAme,ReportDate,FixedDate,Comments,Contractor,Image")] Maintainance maintainance)
+        public ActionResult Create([Bind(Include = "MaintainanceId,StudentNAme,ReportDate,FixedDate,Comments,Contractor,Image,ResName,Status")] Maintainance maintainance, HttpPostedFileBase file)
         {
-            if (ModelState.IsValid)
+            string currentUserId = User.Identity.GetUserName();
+            var getStudent = db.Students.Where(p => p.Email == currentUserId).Select(p => p.Name).FirstOrDefault();
+            var getRes = db.Students.Where(p => p.Email == currentUserId).Select(p => p.ResName).FirstOrDefault();
+
+            if (file != null && file.ContentLength > 0)
             {
+                maintainance.Image = ConvertToBytes(file);
+            }
+            if (ModelState.IsValid)
+            {               
+       
+                maintainance.StudentNAme = getStudent;
+
+                maintainance.ReportDate = DateTime.Now;
+                maintainance.StudentEmail =User.Identity.GetUserName();
+
+                maintainance.ResName = getRes;
+                maintainance.Status = "Awaiting";
+
                 db.Maintainances.Add(maintainance);
                 db.SaveChanges();
-                return RedirectToAction("Index");
+                return RedirectToAction("Index2");
             }
 
             return View(maintainance);
         }
-
+        public byte[] ConvertToBytes(HttpPostedFileBase file)
+        {
+            BinaryReader reader = new BinaryReader(file.InputStream);
+            return reader.ReadBytes((int)file.ContentLength);
+        }
         // GET: Maintainances/Edit/5
         public ActionResult Edit(int? id)
         {

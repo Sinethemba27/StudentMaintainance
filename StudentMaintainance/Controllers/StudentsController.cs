@@ -17,7 +17,7 @@ namespace StudentMaintainance.Controllers
         // GET: Students
         public ActionResult Index()
         {
-            var students = db.Students.Include(s => s.Residence);
+            var students = db.Students;
             return View(students.ToList());
         }
 
@@ -48,7 +48,7 @@ namespace StudentMaintainance.Controllers
         // more details see https://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public ActionResult Create([Bind(Include = "studentNo,Name,RoomNo,Resid")] Student student)
+        public ActionResult Create([Bind(Include = "studentID,studentNo,Name,RoomNo,Resid,ResName")] Student student)
         {
             if (ModelState.IsValid)
             {

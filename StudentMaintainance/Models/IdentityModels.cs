@@ -18,9 +18,7 @@ namespace StudentMaintainance.Models
         [DisplayName("Room Number")]
         public int RoomNo { get; set; }
         [DisplayName("Residence")]
-        [ForeignKey("Resid")]
-        public Residence Residence { get; set; }
-        public int Resid { get; set; }
+        public string Resid { get; set; }
         public async Task<ClaimsIdentity> GenerateUserIdentityAsync(UserManager<ApplicationUser> manager)
         {
             // Note the authenticationType must match the one defined in CookieAuthenticationOptions.AuthenticationType
@@ -41,7 +39,9 @@ namespace StudentMaintainance.Models
         {
             return new ApplicationDbContext();
         }
-
+        //Role Management
+        public DbSet<IdentityUserRole> UserInRole { get; set; }
+        public DbSet<ApplicationRole> appRoles { get; set; }
         public System.Data.Entity.DbSet<StudentMaintainance.Models.Residence> Residences { get; set; }
 
         public System.Data.Entity.DbSet<StudentMaintainance.Models.Contractor> Contractors { get; set; }
@@ -51,5 +51,9 @@ namespace StudentMaintainance.Models
         public System.Data.Entity.DbSet<StudentMaintainance.Models.Maintainance> Maintainances { get; set; }
 
         public System.Data.Entity.DbSet<StudentMaintainance.Models.AssignContractor> AssignContractors { get; set; }
+
+        public System.Data.Entity.DbSet<StudentMaintainance.Models.DoneMaintainance> DoneMaintainances { get; set; }
+
+        public System.Data.Entity.DbSet<StudentMaintainance.Models.ContractorAddresses> ContractorAddresses { get; set; }
     }
 }

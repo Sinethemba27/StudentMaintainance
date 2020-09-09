@@ -93,4 +93,392 @@ c:\users\here\documents\visual studio 2017\Projects\StudentMaintainance\StudentM
 c:\users\here\documents\visual studio 2017\Projects\StudentMaintainance\StudentMaintainance\bin\Microsoft.AI.Web.xml
 c:\users\here\documents\visual studio 2017\Projects\StudentMaintainance\StudentMaintainance\obj\Debug\StudentMaintainance.dll
 c:\users\here\documents\visual studio 2017\Projects\StudentMaintainance\StudentMaintainance\obj\Debug\StudentMaintainance.pdb
-C:\Users\here\documents\visual studio 2017\Projects\StudentMaintainance\StudentMaintainance\obj\Debug\StudentMaintainance.csprojResolveAssemblyReference.cache
+C:\Users\here\Documents\Visual Studio 2017\Projects\StudentMaintainance\StudentMaintainance\obj\Debug\StudentMaintainance.csprojResolveAssemblyReference.cache
+E:\StudentMaintainance\StudentMaintainance\bin\ApplicationInsights.config
+E:\StudentMaintainance\StudentMaintainance\bin\roslyn\csc.exe
+E:\StudentMaintainance\StudentMaintainance\bin\roslyn\csc.exe.config
+E:\StudentMaintainance\StudentMaintainance\bin\roslyn\csc.rsp
+E:\StudentMaintainance\StudentMaintainance\bin\roslyn\csi.exe
+E:\StudentMaintainance\StudentMaintainance\bin\roslyn\csi.rsp
+E:\StudentMaintainance\StudentMaintainance\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+E:\StudentMaintainance\StudentMaintainance\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+E:\StudentMaintainance\StudentMaintainance\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+E:\StudentMaintainance\StudentMaintainance\bin\roslyn\Microsoft.CodeAnalysis.dll
+E:\StudentMaintainance\StudentMaintainance\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+E:\StudentMaintainance\StudentMaintainance\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+E:\StudentMaintainance\StudentMaintainance\bin\roslyn\Microsoft.CSharp.Core.targets
+E:\StudentMaintainance\StudentMaintainance\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+E:\StudentMaintainance\StudentMaintainance\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+E:\StudentMaintainance\StudentMaintainance\bin\roslyn\Microsoft.VisualBasic.Core.targets
+E:\StudentMaintainance\StudentMaintainance\bin\roslyn\System.AppContext.dll
+E:\StudentMaintainance\StudentMaintainance\bin\roslyn\System.Collections.Immutable.dll
+E:\StudentMaintainance\StudentMaintainance\bin\roslyn\System.Diagnostics.StackTrace.dll
+E:\StudentMaintainance\StudentMaintainance\bin\roslyn\System.IO.FileSystem.dll
+E:\StudentMaintainance\StudentMaintainance\bin\roslyn\System.IO.FileSystem.Primitives.dll
+E:\StudentMaintainance\StudentMaintainance\bin\roslyn\System.Reflection.Metadata.dll
+E:\StudentMaintainance\StudentMaintainance\bin\roslyn\vbc.exe
+E:\StudentMaintainance\StudentMaintainance\bin\roslyn\vbc.exe.config
+E:\StudentMaintainance\StudentMaintainance\bin\roslyn\vbc.rsp
+E:\StudentMaintainance\StudentMaintainance\bin\roslyn\VBCSCompiler.exe
+E:\StudentMaintainance\StudentMaintainance\bin\roslyn\VBCSCompiler.exe.config
+E:\StudentMaintainance\StudentMaintainance\bin\StudentMaintainance.dll.config
+E:\StudentMaintainance\StudentMaintainance\bin\StudentMaintainance.dll
+E:\StudentMaintainance\StudentMaintainance\bin\StudentMaintainance.pdb
+E:\StudentMaintainance\StudentMaintainance\bin\Antlr3.Runtime.dll
+E:\StudentMaintainance\StudentMaintainance\bin\EntityFramework.dll
+E:\StudentMaintainance\StudentMaintainance\bin\EntityFramework.SqlServer.dll
+E:\StudentMaintainance\StudentMaintainance\bin\Microsoft.AI.Agent.Intercept.dll
+E:\StudentMaintainance\StudentMaintainance\bin\Microsoft.AI.DependencyCollector.dll
+E:\StudentMaintainance\StudentMaintainance\bin\Microsoft.AI.PerfCounterCollector.dll
+E:\StudentMaintainance\StudentMaintainance\bin\Microsoft.AI.ServerTelemetryChannel.dll
+E:\StudentMaintainance\StudentMaintainance\bin\Microsoft.AI.Web.dll
+E:\StudentMaintainance\StudentMaintainance\bin\Microsoft.AI.WindowsServer.dll
+E:\StudentMaintainance\StudentMaintainance\bin\Microsoft.ApplicationInsights.dll
+E:\StudentMaintainance\StudentMaintainance\bin\Microsoft.AspNet.Identity.Core.dll
+E:\StudentMaintainance\StudentMaintainance\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+E:\StudentMaintainance\StudentMaintainance\bin\Microsoft.AspNet.Identity.Owin.dll
+E:\StudentMaintainance\StudentMaintainance\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+E:\StudentMaintainance\StudentMaintainance\bin\Microsoft.Owin.dll
+E:\StudentMaintainance\StudentMaintainance\bin\Microsoft.Owin.Host.SystemWeb.dll
+E:\StudentMaintainance\StudentMaintainance\bin\Microsoft.Owin.Security.Cookies.dll
+E:\StudentMaintainance\StudentMaintainance\bin\Microsoft.Owin.Security.dll
+E:\StudentMaintainance\StudentMaintainance\bin\Microsoft.Owin.Security.Facebook.dll
+E:\StudentMaintainance\StudentMaintainance\bin\Microsoft.Owin.Security.Google.dll
+E:\StudentMaintainance\StudentMaintainance\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+E:\StudentMaintainance\StudentMaintainance\bin\Microsoft.Owin.Security.OAuth.dll
+E:\StudentMaintainance\StudentMaintainance\bin\Microsoft.Owin.Security.Twitter.dll
+E:\StudentMaintainance\StudentMaintainance\bin\Microsoft.Web.Infrastructure.dll
+E:\StudentMaintainance\StudentMaintainance\bin\Newtonsoft.Json.dll
+E:\StudentMaintainance\StudentMaintainance\bin\Owin.dll
+E:\StudentMaintainance\StudentMaintainance\bin\System.Web.Helpers.dll
+E:\StudentMaintainance\StudentMaintainance\bin\System.Web.Mvc.dll
+E:\StudentMaintainance\StudentMaintainance\bin\System.Web.Optimization.dll
+E:\StudentMaintainance\StudentMaintainance\bin\System.Web.Razor.dll
+E:\StudentMaintainance\StudentMaintainance\bin\System.Web.WebPages.Deployment.dll
+E:\StudentMaintainance\StudentMaintainance\bin\System.Web.WebPages.dll
+E:\StudentMaintainance\StudentMaintainance\bin\System.Web.WebPages.Razor.dll
+E:\StudentMaintainance\StudentMaintainance\bin\WebGrease.dll
+E:\StudentMaintainance\StudentMaintainance\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+E:\StudentMaintainance\StudentMaintainance\bin\System.Web.Helpers.xml
+E:\StudentMaintainance\StudentMaintainance\bin\System.Web.Mvc.xml
+E:\StudentMaintainance\StudentMaintainance\bin\System.Web.Optimization.xml
+E:\StudentMaintainance\StudentMaintainance\bin\System.Web.Razor.xml
+E:\StudentMaintainance\StudentMaintainance\bin\System.Web.WebPages.xml
+E:\StudentMaintainance\StudentMaintainance\bin\System.Web.WebPages.Deployment.xml
+E:\StudentMaintainance\StudentMaintainance\bin\System.Web.WebPages.Razor.xml
+E:\StudentMaintainance\StudentMaintainance\bin\Antlr3.Runtime.pdb
+E:\StudentMaintainance\StudentMaintainance\bin\Newtonsoft.Json.xml
+E:\StudentMaintainance\StudentMaintainance\bin\EntityFramework.xml
+E:\StudentMaintainance\StudentMaintainance\bin\EntityFramework.SqlServer.xml
+E:\StudentMaintainance\StudentMaintainance\bin\Microsoft.AspNet.Identity.Core.xml
+E:\StudentMaintainance\StudentMaintainance\bin\Microsoft.AspNet.Identity.Owin.xml
+E:\StudentMaintainance\StudentMaintainance\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+E:\StudentMaintainance\StudentMaintainance\bin\Microsoft.Owin.xml
+E:\StudentMaintainance\StudentMaintainance\bin\Microsoft.Owin.Host.SystemWeb.xml
+E:\StudentMaintainance\StudentMaintainance\bin\Microsoft.Owin.Security.xml
+E:\StudentMaintainance\StudentMaintainance\bin\Microsoft.Owin.Security.Facebook.xml
+E:\StudentMaintainance\StudentMaintainance\bin\Microsoft.Owin.Security.Cookies.xml
+E:\StudentMaintainance\StudentMaintainance\bin\Microsoft.Owin.Security.OAuth.xml
+E:\StudentMaintainance\StudentMaintainance\bin\Microsoft.Owin.Security.Google.xml
+E:\StudentMaintainance\StudentMaintainance\bin\Microsoft.Owin.Security.Twitter.xml
+E:\StudentMaintainance\StudentMaintainance\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+E:\StudentMaintainance\StudentMaintainance\bin\Microsoft.ApplicationInsights.xml
+E:\StudentMaintainance\StudentMaintainance\bin\Microsoft.AI.DependencyCollector.xml
+E:\StudentMaintainance\StudentMaintainance\bin\Microsoft.AI.ServerTelemetryChannel.xml
+E:\StudentMaintainance\StudentMaintainance\bin\Microsoft.AI.WindowsServer.xml
+E:\StudentMaintainance\StudentMaintainance\bin\Microsoft.AI.Web.xml
+E:\StudentMaintainance\StudentMaintainance\obj\Debug\StudentMaintainance.csprojResolveAssemblyReference.cache
+E:\StudentMaintainance\StudentMaintainance\obj\Debug\StudentMaintainance.dll
+E:\StudentMaintainance\StudentMaintainance\obj\Debug\StudentMaintainance.pdb
+D:\StudentMaintainance\StudentMaintainance\bin\ApplicationInsights.config
+D:\StudentMaintainance\StudentMaintainance\bin\roslyn\csc.exe
+D:\StudentMaintainance\StudentMaintainance\bin\roslyn\csc.exe.config
+D:\StudentMaintainance\StudentMaintainance\bin\roslyn\csc.rsp
+D:\StudentMaintainance\StudentMaintainance\bin\roslyn\csi.exe
+D:\StudentMaintainance\StudentMaintainance\bin\roslyn\csi.rsp
+D:\StudentMaintainance\StudentMaintainance\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+D:\StudentMaintainance\StudentMaintainance\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+D:\StudentMaintainance\StudentMaintainance\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+D:\StudentMaintainance\StudentMaintainance\bin\roslyn\Microsoft.CodeAnalysis.dll
+D:\StudentMaintainance\StudentMaintainance\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+D:\StudentMaintainance\StudentMaintainance\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+D:\StudentMaintainance\StudentMaintainance\bin\roslyn\Microsoft.CSharp.Core.targets
+D:\StudentMaintainance\StudentMaintainance\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+D:\StudentMaintainance\StudentMaintainance\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+D:\StudentMaintainance\StudentMaintainance\bin\roslyn\Microsoft.VisualBasic.Core.targets
+D:\StudentMaintainance\StudentMaintainance\bin\roslyn\System.AppContext.dll
+D:\StudentMaintainance\StudentMaintainance\bin\roslyn\System.Collections.Immutable.dll
+D:\StudentMaintainance\StudentMaintainance\bin\roslyn\System.Diagnostics.StackTrace.dll
+D:\StudentMaintainance\StudentMaintainance\bin\roslyn\System.IO.FileSystem.dll
+D:\StudentMaintainance\StudentMaintainance\bin\roslyn\System.IO.FileSystem.Primitives.dll
+D:\StudentMaintainance\StudentMaintainance\bin\roslyn\System.Reflection.Metadata.dll
+D:\StudentMaintainance\StudentMaintainance\bin\roslyn\vbc.exe
+D:\StudentMaintainance\StudentMaintainance\bin\roslyn\vbc.exe.config
+D:\StudentMaintainance\StudentMaintainance\bin\roslyn\vbc.rsp
+D:\StudentMaintainance\StudentMaintainance\bin\roslyn\VBCSCompiler.exe
+D:\StudentMaintainance\StudentMaintainance\bin\roslyn\VBCSCompiler.exe.config
+D:\StudentMaintainance\StudentMaintainance\bin\StudentMaintainance.dll.config
+D:\StudentMaintainance\StudentMaintainance\bin\StudentMaintainance.dll
+D:\StudentMaintainance\StudentMaintainance\bin\StudentMaintainance.pdb
+D:\StudentMaintainance\StudentMaintainance\bin\Antlr3.Runtime.dll
+D:\StudentMaintainance\StudentMaintainance\bin\EntityFramework.dll
+D:\StudentMaintainance\StudentMaintainance\bin\EntityFramework.SqlServer.dll
+D:\StudentMaintainance\StudentMaintainance\bin\Microsoft.AI.Agent.Intercept.dll
+D:\StudentMaintainance\StudentMaintainance\bin\Microsoft.AI.DependencyCollector.dll
+D:\StudentMaintainance\StudentMaintainance\bin\Microsoft.AI.PerfCounterCollector.dll
+D:\StudentMaintainance\StudentMaintainance\bin\Microsoft.AI.ServerTelemetryChannel.dll
+D:\StudentMaintainance\StudentMaintainance\bin\Microsoft.AI.Web.dll
+D:\StudentMaintainance\StudentMaintainance\bin\Microsoft.AI.WindowsServer.dll
+D:\StudentMaintainance\StudentMaintainance\bin\Microsoft.ApplicationInsights.dll
+D:\StudentMaintainance\StudentMaintainance\bin\Microsoft.AspNet.Identity.Core.dll
+D:\StudentMaintainance\StudentMaintainance\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+D:\StudentMaintainance\StudentMaintainance\bin\Microsoft.AspNet.Identity.Owin.dll
+D:\StudentMaintainance\StudentMaintainance\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+D:\StudentMaintainance\StudentMaintainance\bin\Microsoft.Owin.dll
+D:\StudentMaintainance\StudentMaintainance\bin\Microsoft.Owin.Host.SystemWeb.dll
+D:\StudentMaintainance\StudentMaintainance\bin\Microsoft.Owin.Security.Cookies.dll
+D:\StudentMaintainance\StudentMaintainance\bin\Microsoft.Owin.Security.dll
+D:\StudentMaintainance\StudentMaintainance\bin\Microsoft.Owin.Security.Facebook.dll
+D:\StudentMaintainance\StudentMaintainance\bin\Microsoft.Owin.Security.Google.dll
+D:\StudentMaintainance\StudentMaintainance\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+D:\StudentMaintainance\StudentMaintainance\bin\Microsoft.Owin.Security.OAuth.dll
+D:\StudentMaintainance\StudentMaintainance\bin\Microsoft.Owin.Security.Twitter.dll
+D:\StudentMaintainance\StudentMaintainance\bin\Microsoft.Web.Infrastructure.dll
+D:\StudentMaintainance\StudentMaintainance\bin\Newtonsoft.Json.dll
+D:\StudentMaintainance\StudentMaintainance\bin\Owin.dll
+D:\StudentMaintainance\StudentMaintainance\bin\System.Web.Helpers.dll
+D:\StudentMaintainance\StudentMaintainance\bin\System.Web.Mvc.dll
+D:\StudentMaintainance\StudentMaintainance\bin\System.Web.Optimization.dll
+D:\StudentMaintainance\StudentMaintainance\bin\System.Web.Razor.dll
+D:\StudentMaintainance\StudentMaintainance\bin\System.Web.WebPages.Deployment.dll
+D:\StudentMaintainance\StudentMaintainance\bin\System.Web.WebPages.dll
+D:\StudentMaintainance\StudentMaintainance\bin\System.Web.WebPages.Razor.dll
+D:\StudentMaintainance\StudentMaintainance\bin\WebGrease.dll
+D:\StudentMaintainance\StudentMaintainance\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+D:\StudentMaintainance\StudentMaintainance\bin\System.Web.Helpers.xml
+D:\StudentMaintainance\StudentMaintainance\bin\System.Web.Mvc.xml
+D:\StudentMaintainance\StudentMaintainance\bin\System.Web.Optimization.xml
+D:\StudentMaintainance\StudentMaintainance\bin\System.Web.Razor.xml
+D:\StudentMaintainance\StudentMaintainance\bin\System.Web.WebPages.xml
+D:\StudentMaintainance\StudentMaintainance\bin\System.Web.WebPages.Deployment.xml
+D:\StudentMaintainance\StudentMaintainance\bin\System.Web.WebPages.Razor.xml
+D:\StudentMaintainance\StudentMaintainance\bin\Antlr3.Runtime.pdb
+D:\StudentMaintainance\StudentMaintainance\bin\Newtonsoft.Json.xml
+D:\StudentMaintainance\StudentMaintainance\bin\EntityFramework.xml
+D:\StudentMaintainance\StudentMaintainance\bin\EntityFramework.SqlServer.xml
+D:\StudentMaintainance\StudentMaintainance\bin\Microsoft.AspNet.Identity.Core.xml
+D:\StudentMaintainance\StudentMaintainance\bin\Microsoft.AspNet.Identity.Owin.xml
+D:\StudentMaintainance\StudentMaintainance\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+D:\StudentMaintainance\StudentMaintainance\bin\Microsoft.Owin.xml
+D:\StudentMaintainance\StudentMaintainance\bin\Microsoft.Owin.Host.SystemWeb.xml
+D:\StudentMaintainance\StudentMaintainance\bin\Microsoft.Owin.Security.xml
+D:\StudentMaintainance\StudentMaintainance\bin\Microsoft.Owin.Security.Facebook.xml
+D:\StudentMaintainance\StudentMaintainance\bin\Microsoft.Owin.Security.Cookies.xml
+D:\StudentMaintainance\StudentMaintainance\bin\Microsoft.Owin.Security.OAuth.xml
+D:\StudentMaintainance\StudentMaintainance\bin\Microsoft.Owin.Security.Google.xml
+D:\StudentMaintainance\StudentMaintainance\bin\Microsoft.Owin.Security.Twitter.xml
+D:\StudentMaintainance\StudentMaintainance\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+D:\StudentMaintainance\StudentMaintainance\bin\Microsoft.ApplicationInsights.xml
+D:\StudentMaintainance\StudentMaintainance\bin\Microsoft.AI.DependencyCollector.xml
+D:\StudentMaintainance\StudentMaintainance\bin\Microsoft.AI.ServerTelemetryChannel.xml
+D:\StudentMaintainance\StudentMaintainance\bin\Microsoft.AI.WindowsServer.xml
+D:\StudentMaintainance\StudentMaintainance\bin\Microsoft.AI.Web.xml
+D:\StudentMaintainance\StudentMaintainance\obj\Debug\StudentMaintainance.csproj.CoreCompileInputs.cache
+D:\StudentMaintainance\StudentMaintainance\obj\Debug\StudentMaintainance.csproj.CopyComplete
+D:\StudentMaintainance\StudentMaintainance\obj\Debug\StudentMaintainance.dll
+D:\StudentMaintainance\StudentMaintainance\obj\Debug\StudentMaintainance.pdb
+C:\Users\Sivuyise\Desktop\Holiday Coding\StudentMaintainance\StudentMaintainance\bin\ApplicationInsights.config
+C:\Users\Sivuyise\Desktop\Holiday Coding\StudentMaintainance\StudentMaintainance\bin\roslyn\csc.exe
+C:\Users\Sivuyise\Desktop\Holiday Coding\StudentMaintainance\StudentMaintainance\bin\roslyn\csc.exe.config
+C:\Users\Sivuyise\Desktop\Holiday Coding\StudentMaintainance\StudentMaintainance\bin\roslyn\csc.rsp
+C:\Users\Sivuyise\Desktop\Holiday Coding\StudentMaintainance\StudentMaintainance\bin\roslyn\csi.exe
+C:\Users\Sivuyise\Desktop\Holiday Coding\StudentMaintainance\StudentMaintainance\bin\roslyn\csi.rsp
+C:\Users\Sivuyise\Desktop\Holiday Coding\StudentMaintainance\StudentMaintainance\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\Sivuyise\Desktop\Holiday Coding\StudentMaintainance\StudentMaintainance\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\Sivuyise\Desktop\Holiday Coding\StudentMaintainance\StudentMaintainance\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Users\Sivuyise\Desktop\Holiday Coding\StudentMaintainance\StudentMaintainance\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\Sivuyise\Desktop\Holiday Coding\StudentMaintainance\StudentMaintainance\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Users\Sivuyise\Desktop\Holiday Coding\StudentMaintainance\StudentMaintainance\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\Sivuyise\Desktop\Holiday Coding\StudentMaintainance\StudentMaintainance\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\Sivuyise\Desktop\Holiday Coding\StudentMaintainance\StudentMaintainance\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Users\Sivuyise\Desktop\Holiday Coding\StudentMaintainance\StudentMaintainance\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Users\Sivuyise\Desktop\Holiday Coding\StudentMaintainance\StudentMaintainance\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\Sivuyise\Desktop\Holiday Coding\StudentMaintainance\StudentMaintainance\bin\roslyn\System.AppContext.dll
+C:\Users\Sivuyise\Desktop\Holiday Coding\StudentMaintainance\StudentMaintainance\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\Sivuyise\Desktop\Holiday Coding\StudentMaintainance\StudentMaintainance\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\Users\Sivuyise\Desktop\Holiday Coding\StudentMaintainance\StudentMaintainance\bin\roslyn\System.IO.FileSystem.dll
+C:\Users\Sivuyise\Desktop\Holiday Coding\StudentMaintainance\StudentMaintainance\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\Users\Sivuyise\Desktop\Holiday Coding\StudentMaintainance\StudentMaintainance\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\Sivuyise\Desktop\Holiday Coding\StudentMaintainance\StudentMaintainance\bin\roslyn\vbc.exe
+C:\Users\Sivuyise\Desktop\Holiday Coding\StudentMaintainance\StudentMaintainance\bin\roslyn\vbc.exe.config
+C:\Users\Sivuyise\Desktop\Holiday Coding\StudentMaintainance\StudentMaintainance\bin\roslyn\vbc.rsp
+C:\Users\Sivuyise\Desktop\Holiday Coding\StudentMaintainance\StudentMaintainance\bin\roslyn\VBCSCompiler.exe
+C:\Users\Sivuyise\Desktop\Holiday Coding\StudentMaintainance\StudentMaintainance\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\Sivuyise\Desktop\Holiday Coding\StudentMaintainance\StudentMaintainance\bin\StudentMaintainance.dll.config
+C:\Users\Sivuyise\Desktop\Holiday Coding\StudentMaintainance\StudentMaintainance\bin\StudentMaintainance.dll
+C:\Users\Sivuyise\Desktop\Holiday Coding\StudentMaintainance\StudentMaintainance\bin\StudentMaintainance.pdb
+C:\Users\Sivuyise\Desktop\Holiday Coding\StudentMaintainance\StudentMaintainance\bin\Antlr3.Runtime.dll
+C:\Users\Sivuyise\Desktop\Holiday Coding\StudentMaintainance\StudentMaintainance\bin\EntityFramework.dll
+C:\Users\Sivuyise\Desktop\Holiday Coding\StudentMaintainance\StudentMaintainance\bin\EntityFramework.SqlServer.dll
+C:\Users\Sivuyise\Desktop\Holiday Coding\StudentMaintainance\StudentMaintainance\bin\Microsoft.AI.Agent.Intercept.dll
+C:\Users\Sivuyise\Desktop\Holiday Coding\StudentMaintainance\StudentMaintainance\bin\Microsoft.AI.DependencyCollector.dll
+C:\Users\Sivuyise\Desktop\Holiday Coding\StudentMaintainance\StudentMaintainance\bin\Microsoft.AI.PerfCounterCollector.dll
+C:\Users\Sivuyise\Desktop\Holiday Coding\StudentMaintainance\StudentMaintainance\bin\Microsoft.AI.ServerTelemetryChannel.dll
+C:\Users\Sivuyise\Desktop\Holiday Coding\StudentMaintainance\StudentMaintainance\bin\Microsoft.AI.Web.dll
+C:\Users\Sivuyise\Desktop\Holiday Coding\StudentMaintainance\StudentMaintainance\bin\Microsoft.AI.WindowsServer.dll
+C:\Users\Sivuyise\Desktop\Holiday Coding\StudentMaintainance\StudentMaintainance\bin\Microsoft.ApplicationInsights.dll
+C:\Users\Sivuyise\Desktop\Holiday Coding\StudentMaintainance\StudentMaintainance\bin\Microsoft.AspNet.Identity.Core.dll
+C:\Users\Sivuyise\Desktop\Holiday Coding\StudentMaintainance\StudentMaintainance\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+C:\Users\Sivuyise\Desktop\Holiday Coding\StudentMaintainance\StudentMaintainance\bin\Microsoft.AspNet.Identity.Owin.dll
+C:\Users\Sivuyise\Desktop\Holiday Coding\StudentMaintainance\StudentMaintainance\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\Sivuyise\Desktop\Holiday Coding\StudentMaintainance\StudentMaintainance\bin\Microsoft.Owin.dll
+C:\Users\Sivuyise\Desktop\Holiday Coding\StudentMaintainance\StudentMaintainance\bin\Microsoft.Owin.Host.SystemWeb.dll
+C:\Users\Sivuyise\Desktop\Holiday Coding\StudentMaintainance\StudentMaintainance\bin\Microsoft.Owin.Security.Cookies.dll
+C:\Users\Sivuyise\Desktop\Holiday Coding\StudentMaintainance\StudentMaintainance\bin\Microsoft.Owin.Security.dll
+C:\Users\Sivuyise\Desktop\Holiday Coding\StudentMaintainance\StudentMaintainance\bin\Microsoft.Owin.Security.Facebook.dll
+C:\Users\Sivuyise\Desktop\Holiday Coding\StudentMaintainance\StudentMaintainance\bin\Microsoft.Owin.Security.Google.dll
+C:\Users\Sivuyise\Desktop\Holiday Coding\StudentMaintainance\StudentMaintainance\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+C:\Users\Sivuyise\Desktop\Holiday Coding\StudentMaintainance\StudentMaintainance\bin\Microsoft.Owin.Security.OAuth.dll
+C:\Users\Sivuyise\Desktop\Holiday Coding\StudentMaintainance\StudentMaintainance\bin\Microsoft.Owin.Security.Twitter.dll
+C:\Users\Sivuyise\Desktop\Holiday Coding\StudentMaintainance\StudentMaintainance\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\Sivuyise\Desktop\Holiday Coding\StudentMaintainance\StudentMaintainance\bin\Newtonsoft.Json.dll
+C:\Users\Sivuyise\Desktop\Holiday Coding\StudentMaintainance\StudentMaintainance\bin\Owin.dll
+C:\Users\Sivuyise\Desktop\Holiday Coding\StudentMaintainance\StudentMaintainance\bin\System.Web.Helpers.dll
+C:\Users\Sivuyise\Desktop\Holiday Coding\StudentMaintainance\StudentMaintainance\bin\System.Web.Mvc.dll
+C:\Users\Sivuyise\Desktop\Holiday Coding\StudentMaintainance\StudentMaintainance\bin\System.Web.Optimization.dll
+C:\Users\Sivuyise\Desktop\Holiday Coding\StudentMaintainance\StudentMaintainance\bin\System.Web.Razor.dll
+C:\Users\Sivuyise\Desktop\Holiday Coding\StudentMaintainance\StudentMaintainance\bin\System.Web.WebPages.Deployment.dll
+C:\Users\Sivuyise\Desktop\Holiday Coding\StudentMaintainance\StudentMaintainance\bin\System.Web.WebPages.dll
+C:\Users\Sivuyise\Desktop\Holiday Coding\StudentMaintainance\StudentMaintainance\bin\System.Web.WebPages.Razor.dll
+C:\Users\Sivuyise\Desktop\Holiday Coding\StudentMaintainance\StudentMaintainance\bin\WebGrease.dll
+C:\Users\Sivuyise\Desktop\Holiday Coding\StudentMaintainance\StudentMaintainance\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\Sivuyise\Desktop\Holiday Coding\StudentMaintainance\StudentMaintainance\bin\System.Web.Helpers.xml
+C:\Users\Sivuyise\Desktop\Holiday Coding\StudentMaintainance\StudentMaintainance\bin\System.Web.Mvc.xml
+C:\Users\Sivuyise\Desktop\Holiday Coding\StudentMaintainance\StudentMaintainance\bin\System.Web.Optimization.xml
+C:\Users\Sivuyise\Desktop\Holiday Coding\StudentMaintainance\StudentMaintainance\bin\System.Web.Razor.xml
+C:\Users\Sivuyise\Desktop\Holiday Coding\StudentMaintainance\StudentMaintainance\bin\System.Web.WebPages.xml
+C:\Users\Sivuyise\Desktop\Holiday Coding\StudentMaintainance\StudentMaintainance\bin\System.Web.WebPages.Deployment.xml
+C:\Users\Sivuyise\Desktop\Holiday Coding\StudentMaintainance\StudentMaintainance\bin\System.Web.WebPages.Razor.xml
+C:\Users\Sivuyise\Desktop\Holiday Coding\StudentMaintainance\StudentMaintainance\bin\Antlr3.Runtime.pdb
+C:\Users\Sivuyise\Desktop\Holiday Coding\StudentMaintainance\StudentMaintainance\bin\Newtonsoft.Json.xml
+C:\Users\Sivuyise\Desktop\Holiday Coding\StudentMaintainance\StudentMaintainance\bin\EntityFramework.xml
+C:\Users\Sivuyise\Desktop\Holiday Coding\StudentMaintainance\StudentMaintainance\bin\EntityFramework.SqlServer.xml
+C:\Users\Sivuyise\Desktop\Holiday Coding\StudentMaintainance\StudentMaintainance\bin\Microsoft.AspNet.Identity.Core.xml
+C:\Users\Sivuyise\Desktop\Holiday Coding\StudentMaintainance\StudentMaintainance\bin\Microsoft.AspNet.Identity.Owin.xml
+C:\Users\Sivuyise\Desktop\Holiday Coding\StudentMaintainance\StudentMaintainance\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+C:\Users\Sivuyise\Desktop\Holiday Coding\StudentMaintainance\StudentMaintainance\bin\Microsoft.Owin.xml
+C:\Users\Sivuyise\Desktop\Holiday Coding\StudentMaintainance\StudentMaintainance\bin\Microsoft.Owin.Host.SystemWeb.xml
+C:\Users\Sivuyise\Desktop\Holiday Coding\StudentMaintainance\StudentMaintainance\bin\Microsoft.Owin.Security.xml
+C:\Users\Sivuyise\Desktop\Holiday Coding\StudentMaintainance\StudentMaintainance\bin\Microsoft.Owin.Security.Facebook.xml
+C:\Users\Sivuyise\Desktop\Holiday Coding\StudentMaintainance\StudentMaintainance\bin\Microsoft.Owin.Security.Cookies.xml
+C:\Users\Sivuyise\Desktop\Holiday Coding\StudentMaintainance\StudentMaintainance\bin\Microsoft.Owin.Security.OAuth.xml
+C:\Users\Sivuyise\Desktop\Holiday Coding\StudentMaintainance\StudentMaintainance\bin\Microsoft.Owin.Security.Google.xml
+C:\Users\Sivuyise\Desktop\Holiday Coding\StudentMaintainance\StudentMaintainance\bin\Microsoft.Owin.Security.Twitter.xml
+C:\Users\Sivuyise\Desktop\Holiday Coding\StudentMaintainance\StudentMaintainance\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+C:\Users\Sivuyise\Desktop\Holiday Coding\StudentMaintainance\StudentMaintainance\bin\Microsoft.ApplicationInsights.xml
+C:\Users\Sivuyise\Desktop\Holiday Coding\StudentMaintainance\StudentMaintainance\bin\Microsoft.AI.DependencyCollector.xml
+C:\Users\Sivuyise\Desktop\Holiday Coding\StudentMaintainance\StudentMaintainance\bin\Microsoft.AI.ServerTelemetryChannel.xml
+C:\Users\Sivuyise\Desktop\Holiday Coding\StudentMaintainance\StudentMaintainance\bin\Microsoft.AI.WindowsServer.xml
+C:\Users\Sivuyise\Desktop\Holiday Coding\StudentMaintainance\StudentMaintainance\bin\Microsoft.AI.Web.xml
+C:\Users\Sivuyise\Desktop\Holiday Coding\StudentMaintainance\StudentMaintainance\obj\Debug\StudentMaintainance.csprojAssemblyReference.cache
+C:\Users\Sivuyise\Desktop\Holiday Coding\StudentMaintainance\StudentMaintainance\obj\Debug\StudentMaintainance.csproj.CopyComplete
+C:\Users\Sivuyise\Desktop\Holiday Coding\StudentMaintainance\StudentMaintainance\obj\Debug\StudentMaintainance.dll
+C:\Users\Sivuyise\Desktop\Holiday Coding\StudentMaintainance\StudentMaintainance\obj\Debug\StudentMaintainance.pdb
+C:\Users\Sivuyise\Desktop\Code to keep\StudentMaintainance\StudentMaintainance\bin\ApplicationInsights.config
+C:\Users\Sivuyise\Desktop\Code to keep\StudentMaintainance\StudentMaintainance\bin\roslyn\csc.exe
+C:\Users\Sivuyise\Desktop\Code to keep\StudentMaintainance\StudentMaintainance\bin\roslyn\csc.exe.config
+C:\Users\Sivuyise\Desktop\Code to keep\StudentMaintainance\StudentMaintainance\bin\roslyn\csc.rsp
+C:\Users\Sivuyise\Desktop\Code to keep\StudentMaintainance\StudentMaintainance\bin\roslyn\csi.exe
+C:\Users\Sivuyise\Desktop\Code to keep\StudentMaintainance\StudentMaintainance\bin\roslyn\csi.rsp
+C:\Users\Sivuyise\Desktop\Code to keep\StudentMaintainance\StudentMaintainance\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\Sivuyise\Desktop\Code to keep\StudentMaintainance\StudentMaintainance\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\Sivuyise\Desktop\Code to keep\StudentMaintainance\StudentMaintainance\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Users\Sivuyise\Desktop\Code to keep\StudentMaintainance\StudentMaintainance\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\Sivuyise\Desktop\Code to keep\StudentMaintainance\StudentMaintainance\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Users\Sivuyise\Desktop\Code to keep\StudentMaintainance\StudentMaintainance\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\Sivuyise\Desktop\Code to keep\StudentMaintainance\StudentMaintainance\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\Sivuyise\Desktop\Code to keep\StudentMaintainance\StudentMaintainance\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Users\Sivuyise\Desktop\Code to keep\StudentMaintainance\StudentMaintainance\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Users\Sivuyise\Desktop\Code to keep\StudentMaintainance\StudentMaintainance\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\Sivuyise\Desktop\Code to keep\StudentMaintainance\StudentMaintainance\bin\roslyn\System.AppContext.dll
+C:\Users\Sivuyise\Desktop\Code to keep\StudentMaintainance\StudentMaintainance\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\Sivuyise\Desktop\Code to keep\StudentMaintainance\StudentMaintainance\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\Users\Sivuyise\Desktop\Code to keep\StudentMaintainance\StudentMaintainance\bin\roslyn\System.IO.FileSystem.dll
+C:\Users\Sivuyise\Desktop\Code to keep\StudentMaintainance\StudentMaintainance\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\Users\Sivuyise\Desktop\Code to keep\StudentMaintainance\StudentMaintainance\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\Sivuyise\Desktop\Code to keep\StudentMaintainance\StudentMaintainance\bin\roslyn\vbc.exe
+C:\Users\Sivuyise\Desktop\Code to keep\StudentMaintainance\StudentMaintainance\bin\roslyn\vbc.exe.config
+C:\Users\Sivuyise\Desktop\Code to keep\StudentMaintainance\StudentMaintainance\bin\roslyn\vbc.rsp
+C:\Users\Sivuyise\Desktop\Code to keep\StudentMaintainance\StudentMaintainance\bin\roslyn\VBCSCompiler.exe
+C:\Users\Sivuyise\Desktop\Code to keep\StudentMaintainance\StudentMaintainance\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\Sivuyise\Desktop\Code to keep\StudentMaintainance\StudentMaintainance\bin\StudentMaintainance.dll.config
+C:\Users\Sivuyise\Desktop\Code to keep\StudentMaintainance\StudentMaintainance\bin\StudentMaintainance.dll
+C:\Users\Sivuyise\Desktop\Code to keep\StudentMaintainance\StudentMaintainance\bin\StudentMaintainance.pdb
+C:\Users\Sivuyise\Desktop\Code to keep\StudentMaintainance\StudentMaintainance\bin\Antlr3.Runtime.dll
+C:\Users\Sivuyise\Desktop\Code to keep\StudentMaintainance\StudentMaintainance\bin\EntityFramework.dll
+C:\Users\Sivuyise\Desktop\Code to keep\StudentMaintainance\StudentMaintainance\bin\EntityFramework.SqlServer.dll
+C:\Users\Sivuyise\Desktop\Code to keep\StudentMaintainance\StudentMaintainance\bin\Microsoft.AI.Agent.Intercept.dll
+C:\Users\Sivuyise\Desktop\Code to keep\StudentMaintainance\StudentMaintainance\bin\Microsoft.AI.DependencyCollector.dll
+C:\Users\Sivuyise\Desktop\Code to keep\StudentMaintainance\StudentMaintainance\bin\Microsoft.AI.PerfCounterCollector.dll
+C:\Users\Sivuyise\Desktop\Code to keep\StudentMaintainance\StudentMaintainance\bin\Microsoft.AI.ServerTelemetryChannel.dll
+C:\Users\Sivuyise\Desktop\Code to keep\StudentMaintainance\StudentMaintainance\bin\Microsoft.AI.Web.dll
+C:\Users\Sivuyise\Desktop\Code to keep\StudentMaintainance\StudentMaintainance\bin\Microsoft.AI.WindowsServer.dll
+C:\Users\Sivuyise\Desktop\Code to keep\StudentMaintainance\StudentMaintainance\bin\Microsoft.ApplicationInsights.dll
+C:\Users\Sivuyise\Desktop\Code to keep\StudentMaintainance\StudentMaintainance\bin\Microsoft.AspNet.Identity.Core.dll
+C:\Users\Sivuyise\Desktop\Code to keep\StudentMaintainance\StudentMaintainance\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+C:\Users\Sivuyise\Desktop\Code to keep\StudentMaintainance\StudentMaintainance\bin\Microsoft.AspNet.Identity.Owin.dll
+C:\Users\Sivuyise\Desktop\Code to keep\StudentMaintainance\StudentMaintainance\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\Sivuyise\Desktop\Code to keep\StudentMaintainance\StudentMaintainance\bin\Microsoft.Owin.dll
+C:\Users\Sivuyise\Desktop\Code to keep\StudentMaintainance\StudentMaintainance\bin\Microsoft.Owin.Host.SystemWeb.dll
+C:\Users\Sivuyise\Desktop\Code to keep\StudentMaintainance\StudentMaintainance\bin\Microsoft.Owin.Security.Cookies.dll
+C:\Users\Sivuyise\Desktop\Code to keep\StudentMaintainance\StudentMaintainance\bin\Microsoft.Owin.Security.dll
+C:\Users\Sivuyise\Desktop\Code to keep\StudentMaintainance\StudentMaintainance\bin\Microsoft.Owin.Security.Facebook.dll
+C:\Users\Sivuyise\Desktop\Code to keep\StudentMaintainance\StudentMaintainance\bin\Microsoft.Owin.Security.Google.dll
+C:\Users\Sivuyise\Desktop\Code to keep\StudentMaintainance\StudentMaintainance\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+C:\Users\Sivuyise\Desktop\Code to keep\StudentMaintainance\StudentMaintainance\bin\Microsoft.Owin.Security.OAuth.dll
+C:\Users\Sivuyise\Desktop\Code to keep\StudentMaintainance\StudentMaintainance\bin\Microsoft.Owin.Security.Twitter.dll
+C:\Users\Sivuyise\Desktop\Code to keep\StudentMaintainance\StudentMaintainance\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\Sivuyise\Desktop\Code to keep\StudentMaintainance\StudentMaintainance\bin\Newtonsoft.Json.dll
+C:\Users\Sivuyise\Desktop\Code to keep\StudentMaintainance\StudentMaintainance\bin\Owin.dll
+C:\Users\Sivuyise\Desktop\Code to keep\StudentMaintainance\StudentMaintainance\bin\System.Web.Helpers.dll
+C:\Users\Sivuyise\Desktop\Code to keep\StudentMaintainance\StudentMaintainance\bin\System.Web.Mvc.dll
+C:\Users\Sivuyise\Desktop\Code to keep\StudentMaintainance\StudentMaintainance\bin\System.Web.Optimization.dll
+C:\Users\Sivuyise\Desktop\Code to keep\StudentMaintainance\StudentMaintainance\bin\System.Web.Razor.dll
+C:\Users\Sivuyise\Desktop\Code to keep\StudentMaintainance\StudentMaintainance\bin\System.Web.WebPages.Deployment.dll
+C:\Users\Sivuyise\Desktop\Code to keep\StudentMaintainance\StudentMaintainance\bin\System.Web.WebPages.dll
+C:\Users\Sivuyise\Desktop\Code to keep\StudentMaintainance\StudentMaintainance\bin\System.Web.WebPages.Razor.dll
+C:\Users\Sivuyise\Desktop\Code to keep\StudentMaintainance\StudentMaintainance\bin\WebGrease.dll
+C:\Users\Sivuyise\Desktop\Code to keep\StudentMaintainance\StudentMaintainance\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\Sivuyise\Desktop\Code to keep\StudentMaintainance\StudentMaintainance\bin\System.Web.Helpers.xml
+C:\Users\Sivuyise\Desktop\Code to keep\StudentMaintainance\StudentMaintainance\bin\System.Web.Mvc.xml
+C:\Users\Sivuyise\Desktop\Code to keep\StudentMaintainance\StudentMaintainance\bin\System.Web.Optimization.xml
+C:\Users\Sivuyise\Desktop\Code to keep\StudentMaintainance\StudentMaintainance\bin\System.Web.Razor.xml
+C:\Users\Sivuyise\Desktop\Code to keep\StudentMaintainance\StudentMaintainance\bin\System.Web.WebPages.xml
+C:\Users\Sivuyise\Desktop\Code to keep\StudentMaintainance\StudentMaintainance\bin\System.Web.WebPages.Deployment.xml
+C:\Users\Sivuyise\Desktop\Code to keep\StudentMaintainance\StudentMaintainance\bin\System.Web.WebPages.Razor.xml
+C:\Users\Sivuyise\Desktop\Code to keep\StudentMaintainance\StudentMaintainance\bin\Antlr3.Runtime.pdb
+C:\Users\Sivuyise\Desktop\Code to keep\StudentMaintainance\StudentMaintainance\bin\Newtonsoft.Json.xml
+C:\Users\Sivuyise\Desktop\Code to keep\StudentMaintainance\StudentMaintainance\bin\EntityFramework.xml
+C:\Users\Sivuyise\Desktop\Code to keep\StudentMaintainance\StudentMaintainance\bin\EntityFramework.SqlServer.xml
+C:\Users\Sivuyise\Desktop\Code to keep\StudentMaintainance\StudentMaintainance\bin\Microsoft.AspNet.Identity.Core.xml
+C:\Users\Sivuyise\Desktop\Code to keep\StudentMaintainance\StudentMaintainance\bin\Microsoft.AspNet.Identity.Owin.xml
+C:\Users\Sivuyise\Desktop\Code to keep\StudentMaintainance\StudentMaintainance\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+C:\Users\Sivuyise\Desktop\Code to keep\StudentMaintainance\StudentMaintainance\bin\Microsoft.Owin.xml
+C:\Users\Sivuyise\Desktop\Code to keep\StudentMaintainance\StudentMaintainance\bin\Microsoft.Owin.Host.SystemWeb.xml
+C:\Users\Sivuyise\Desktop\Code to keep\StudentMaintainance\StudentMaintainance\bin\Microsoft.Owin.Security.xml
+C:\Users\Sivuyise\Desktop\Code to keep\StudentMaintainance\StudentMaintainance\bin\Microsoft.Owin.Security.Facebook.xml
+C:\Users\Sivuyise\Desktop\Code to keep\StudentMaintainance\StudentMaintainance\bin\Microsoft.Owin.Security.Cookies.xml
+C:\Users\Sivuyise\Desktop\Code to keep\StudentMaintainance\StudentMaintainance\bin\Microsoft.Owin.Security.OAuth.xml
+C:\Users\Sivuyise\Desktop\Code to keep\StudentMaintainance\StudentMaintainance\bin\Microsoft.Owin.Security.Google.xml
+C:\Users\Sivuyise\Desktop\Code to keep\StudentMaintainance\StudentMaintainance\bin\Microsoft.Owin.Security.Twitter.xml
+C:\Users\Sivuyise\Desktop\Code to keep\StudentMaintainance\StudentMaintainance\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+C:\Users\Sivuyise\Desktop\Code to keep\StudentMaintainance\StudentMaintainance\bin\Microsoft.ApplicationInsights.xml
+C:\Users\Sivuyise\Desktop\Code to keep\StudentMaintainance\StudentMaintainance\bin\Microsoft.AI.DependencyCollector.xml
+C:\Users\Sivuyise\Desktop\Code to keep\StudentMaintainance\StudentMaintainance\bin\Microsoft.AI.ServerTelemetryChannel.xml
+C:\Users\Sivuyise\Desktop\Code to keep\StudentMaintainance\StudentMaintainance\bin\Microsoft.AI.WindowsServer.xml
+C:\Users\Sivuyise\Desktop\Code to keep\StudentMaintainance\StudentMaintainance\bin\Microsoft.AI.Web.xml
+C:\Users\Sivuyise\Desktop\Code to keep\StudentMaintainance\StudentMaintainance\obj\Debug\StudentMaintainance.csprojAssemblyReference.cache
+C:\Users\Sivuyise\Desktop\Code to keep\StudentMaintainance\StudentMaintainance\obj\Debug\StudentMaintainance.csproj.CoreCompileInputs.cache
+C:\Users\Sivuyise\Desktop\Code to keep\StudentMaintainance\StudentMaintainance\obj\Debug\StudentMaintainance.csproj.CopyComplete
+C:\Users\Sivuyise\Desktop\Code to keep\StudentMaintainance\StudentMaintainance\obj\Debug\StudentMaintainance.dll
+C:\Users\Sivuyise\Desktop\Code to keep\StudentMaintainance\StudentMaintainance\obj\Debug\StudentMaintainance.pdb

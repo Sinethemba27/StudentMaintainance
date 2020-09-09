@@ -1,7 +1,9 @@
 ﻿@model IEnumerable<StudentMaintainance.Models.Contractor>
-
+@using StudentMaintainance.Models
 @{
     ViewBag.Title = "Index";
+    Layout = "~/Views/Shared/_Backend.cshtml";
+    ApplicationDbContext db = new ApplicationDbContext();
 }
 
 <h2>Index</h2>
@@ -20,6 +22,7 @@
         <th>
             @Html.DisplayNameFor(model => model.Contractor_Availability)
         </th>
+      
         <th></th>
     </tr>
 
@@ -34,7 +37,9 @@
         <td>
             @Html.DisplayFor(modelItem => item.Contractor_Availability)
         </td>
+
         <td>
+            <a href="@Url.Action("Accept", "Contractors",new { id = item.ContractorId })" onclick="return confirm('Are you sure you want to Accept this job, click Ok to Confirm, Or Cancel');" rel="tooltip" title="Check In" class="btn btn-danger btn-simple btn-xs"><i class="fa fa-check-square-o"></i></a>
             @Html.ActionLink("Edit", "Edit", new { id=item.ContractorId }) |
             @Html.ActionLink("Details", "Details", new { id=item.ContractorId }) |
             @Html.ActionLink("Delete", "Delete", new { id=item.ContractorId })

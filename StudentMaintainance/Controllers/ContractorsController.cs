@@ -19,7 +19,20 @@ namespace StudentMaintainance.Controllers
         {
             return View(db.Contractors.ToList());
         }
+        public ActionResult Accept(int? id)
+        {
+            Contractor bookingRoom = db.Contractors.Where(p => p.ContractorId == id).FirstOrDefault();
+            bookingRoom.Contractor_Availability = "Unavailable";
 
+            AssignContractor booking = db.AssignContractors.Where(p => p.Contractor.ContractorName == bookingRoom.ContractorName).FirstOrDefault();
+            booking.Status = "Job Accepted";
+
+            db.Entry(booking).State = EntityState.Modified;
+            db.SaveChanges();
+                
+
+            return RedirectToAction("Index");
+        }
         // GET: Contractors/Details/5
         public ActionResult Details(int? id)
         {
@@ -38,6 +51,7 @@ namespace StudentMaintainance.Controllers
         // GET: Contractors/Create
         public ActionResult Create()
         {
+            
             return View();
         }
 
@@ -46,10 +60,11 @@ namespace StudentMaintainance.Controllers
         // more details see https://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public ActionResult Create([Bind(Include = "ContractorId,ContractorName,Contractor_EmailAddress,Contractor_Availability")] Contractor contractor)
+        public ActionResult Create([Bind(Include = "ContractorId,ContractorName,Contractor_EmailAddress,Contractor_Availability,MaintainanceId")] Contractor contractor)
         {
             if (ModelState.IsValid)
             {
+                contractor.Contractor_Availability = "Available";
                 db.Contractors.Add(contractor);
                 db.SaveChanges();
                 return RedirectToAction("Index");
